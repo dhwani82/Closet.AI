@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct IosappApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootTabView()
         }
+        .modelContainer(for: [ClothingItem.self, Outfit.self, WishlistItem.self])
     }
 }
