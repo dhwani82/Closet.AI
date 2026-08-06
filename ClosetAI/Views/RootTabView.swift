@@ -2,6 +2,8 @@
 //  RootTabView.swift
 //  ClosetAI
 //
+//  Created by Dhwani Chauhan.
+//
 
 import SwiftUI
 import SwiftData

@@ -2,6 +2,8 @@
 //  SettingsView.swift
 //  ClosetAI
 //
+//  Created by Dhwani Chauhan.
+//
 
 import SwiftUI
 
@@ -11,6 +13,7 @@ struct SettingsView: View {
             List {
                 Section("About") {
                     Text("Closet.AI v0.1")
+                    Text("Dhwani Chauhan")
                 }
             }
             .navigationTitle("Settings")

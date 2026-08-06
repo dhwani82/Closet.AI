@@ -2,6 +2,8 @@
 //  ClothingItem.swift
 //  ClosetAI
 //
+//  Created by Dhwani Chauhan.
+//
 
 import Foundation
 import SwiftData
